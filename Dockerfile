@@ -8,4 +8,4 @@ RUN go get golang.org/x/net/... && \
 
 COPY . $GOPATH/src
 
-RUN go run $GOPATH/src/helloworld/greeter_server/main.go
+CMD go run $GOPATH/src/helloworld/greeter_server/main.go
